@@ -1,0 +1,11 @@
+# Real WiFi credentials -- never commit. Template lives in secrets.h.example
+secrets.h
+
+# Python virtual environment (recreate with: python -m venv .venv)
+.venv/
+
+# Collected sensor data -- machine-generated, grows forever
+readings.csv
+
+# Python bytecode cache
+__pycache__/
