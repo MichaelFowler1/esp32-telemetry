@@ -8,6 +8,11 @@ logs readings to CSV; a live matplotlib chart visualizes the history.
 DHT11 --> ESP32 (HTTP server, /data JSON) --WiFi--> poller.py --> readings.csv --> chart.py
 ```
 
+![Live chart of temperature and humidity](docs/live-chart.png)
+
+*Real capture: stable room baseline, a gap where the poller was stopped, then
+a warm-breath test on the sensor — humidity spikes to 64% and decays back.*
+
 ## Hardware
 
 - ESP32 DevKit (38-pin) — LAFVIN kit
