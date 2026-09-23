@@ -1,3 +1,6 @@
+# Copyright 2026 Michael Fowler
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+
 """Stage 3: live chart of the CSV ledger. Run alongside poller.py."""
 
 import csv

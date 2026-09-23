@@ -1,3 +1,6 @@
+# Copyright 2026 Michael Fowler
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+
 """Stage 2: poll the ESP32 on an interval and append readings to a CSV."""
 
 import csv
